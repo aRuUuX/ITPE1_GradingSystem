@@ -1,0 +1,97 @@
+.flexbox {
+  border-style: none;
+  width: 250px;
+  height: 700px;
+  margin: 0;
+  padding: 0px;
+  color: white;
+  box-shadow: 2px 2px 2px 2px #888888;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  padding-top: 10px;
+}
+
+.container1 {
+  margin-bottom: 400px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container2 {
+  text-align: center;
+}
+
+.btn-dashboard {
+  border-style: none;
+  background-color: transparent;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 50px;
+}
+
+.btn-dashboard:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-students {
+  border-style: none;
+  background-color: transparent;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 50px;
+}
+
+.btn-students:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-teachers {
+  border-style: none;
+  background-color: transparent;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 50px;
+}
+
+.btn-teachers:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-settings {
+  border-style: none;
+  background-color: transparent;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 50px;
+}
+
+.btn-settings:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-logout {
+  border-style: none;
+  background-color: transparent;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 50px;
+}
+
+.btn-logout:hover {
+  background-color: white;
+  color: black;
+}

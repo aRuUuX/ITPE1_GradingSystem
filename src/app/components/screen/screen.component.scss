@@ -1,0 +1,78 @@
+.body {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 150px;
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-right: 180px;
+}
+
+.fb-friends {
+    width: 200px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    border-radius: 25px;
+    margin-right: 30px;
+}
+
+.prof-preview {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.namee {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.mutuals-preview {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.mutuals-pic {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50px ;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.mutuals-name {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.btn-add {
+    margin-left: 10px;
+    background-color: rgb(50, 125, 224);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 38px;
+}
+
+.btn-add:hover {
+    background-color: white;
+    color: rgb(50,125,224);
+}

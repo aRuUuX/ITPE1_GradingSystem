@@ -1,0 +1,130 @@
+.flexbox {
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.div-logo {
+    flex:1;
+    margin-left: 30px;
+}
+
+.div-topnav-items {
+    flex: 1;
+    text-align: center;
+}
+
+.services {
+    margin: 0;
+    display: inline;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.company {
+    margin: 0;
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.div-username {
+    flex: 1;
+    text-align:end;
+    margin-right: 30px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+}
+
+.title {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.welcome {
+    font-size: 60px;
+    text-align: start;
+    padding-left: 50px;
+}
+
+.minor {
+    font-size: 15px;
+    justify-content: end;
+    color: white;
+    padding-left: 48px;
+}
+
+.login {
+    flex: 1;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.login-form {
+    border-style: none;
+    border-radius: 50px;
+    height: 450px;
+    width: 450px;
+    margin-left: 90px;
+    background-color: rgb(123, 194, 194);
+    box-shadow: 0px 0px 20px 5px #2e2d2d;
+}
+
+.login-title {
+    font-size:30px ;
+    color: white;
+    font-weight: bolder;
+    padding-top: 25px;
+}
+
+.fname {
+    text-align: start;
+    color: rgb(237, 229, 229);
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.lname {
+    text-align: start;
+    color: rgb(237, 229, 229);
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(251, 251, 254);
+    background-color: transparent;
+    width: 300px;
+  }
+  input:focus {
+    border-color: rgb(18, 14, 227);
+  }
+
+.div-btn {
+    text-align: start;
+    padding-left: 70px;
+}
+
+.btn-login {
+    align-items: start;
+    border-style: none;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 50px;
+    transition: background-color 0.6s;
+  }
+
+  .btn-login:hover {
+    background-color: black;
+    color: white;
+  }
